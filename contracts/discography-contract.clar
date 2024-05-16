@@ -135,6 +135,42 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Add Admin
+;; @desc: function that an existing admin can call to add an admin. 
+;; @params -> Principal
+(define-public (add-admin (new-admin principal)) 
+    (let   
 
+        (
+            ;; Local vars go here
+        )
+
+            ;; Assert that tx-sender is an existing admin
+
+            ;; Assert that new admin is not already listed
+
+            ;; Append new admin to admin list
+        
+         (ok u1)
+    )
+
+)
 
 ;; Remove Admin
+;; @desc: function that removes an existing admin 
+;; @params -> Removed admin (principal)
+
+(define-public (remove-admin (removed-admin principal)) 
+    (let     
+        (
+            ;; Variables
+        )
+
+            ;; Asserts that tx-sender is an admin
+
+            ;; Assert that removed admin is exists
+
+            ;; Remove admin 
+
+            (ok u1)
+    )
+)
